@@ -23,6 +23,7 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
+    githubToken: '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'
   displayName: 'Use Python $(python.version)'
 
 - script: |
